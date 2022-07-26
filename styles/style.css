@@ -1,0 +1,164 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Templete css start */
+
+.banner-aera{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    background-color: #161616;
+    border-radius: 30px;
+    max-width: 1320px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-aera{
+    width: 50%;
+    color: #FFFFFF;
+    padding: 50px 0 0 50px;
+    box-sizing: border-box;
+}
+
+h2{
+    /* width: 531px; */
+    /* height:240px; */
+    font-size: 40px;
+    margin: 0;
+}
+
+p{
+    /* width:506px; */
+    /* height:78px; */
+    font-size: 16px;
+    color:#FFFFFF;
+    
+}
+
+.btn{
+    background-color: #DD0000;
+    width: 186px;
+    height:56px;
+    color:#FFFFFF;
+    border-radius: 5px;
+    /* padding: 16px 25px 16px 25px; */
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    justify-items: center;
+}
+
+.image-aera{
+    width: 50%;
+    margin-top: 33px;
+    text-align: center;
+}
+
+/* Match details style sheet */
+
+.button-box{
+    width:312px;
+    height:312px;
+    background-color:#161616;
+    border-radius: 10px;
+    /* margin:60px 150px; */
+    margin-left: 0;
+}
+
+.button-aera{
+    width:252px;
+    height:252px;
+}
+
+
+.option-btn{
+    width:250px;
+    height:60px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 25px;
+    
+}
+#blog{
+    background-color:#DD0000;
+    color: #FFFFFF;
+}
+
+.match-details{
+    width:312px;
+    height:362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.match-img{
+    width:312px;
+    height:175px;
+}
+
+.trans-btn{
+    width:100px;
+    height:32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+p{
+    
+    color:#FFFFFF;
+    
+    margin-top: 20px;
+}
+
+.footer-aera{
+    /* width:1600px; */
+    height:444px;
+    background-color: #161616;
+}
+span{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* .match-img{
+   position: absolute; 
+} */
+
+.show-grid{
+    display: flex;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.match-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1;
+    padding: 0 0 0 30px;
+}
+
+.footer-aera h2{
+    color:#FFFFFF;
+    text-align: center;
+    
+}
